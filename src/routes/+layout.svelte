@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>create by <a href="https://https://github.com/mg5566/">Kang</a></p>
 	</footer>
 </div>
 
@@ -42,7 +42,10 @@
 	}
 
 	footer a {
+		color: var(--color-theme-1);
 		font-weight: bold;
+		cursor: pointer;
+		text-decoration: none;
 	}
 
 	@media (min-width: 480px) {
