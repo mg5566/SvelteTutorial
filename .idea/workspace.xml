@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5751a-90b4-48ae-bea5-dc400922a8eb" name="Changes" comment="" />
+    <list default="true" id="9fe5751a-90b4-48ae-bea5-dc400922a8eb" name="Changes" comment="[feat] connet socket and test&#10;&#10;socket 통신 연결 성공&#10;emit test 성공">
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Dividor.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/chat/InputChat.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chat/+layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chat/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -27,14 +38,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/hack3rs/mykang/SvelteTutorial/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/organisms" />
+      <recent name="$PROJECT_DIR$/src/components/templates/main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,11 +64,86 @@
       <option name="presentableId" value="Default" />
       <updated>1676102408431</updated>
       <workItem from="1676102412019" duration="1922000" />
-      <workItem from="1676458968541" duration="890000" />
+      <workItem from="1676458968541" duration="5031000" />
+      <workItem from="1676630860809" duration="10551000" />
+      <workItem from="1676700713928" duration="313000" />
+      <workItem from="1676701045822" duration="6049000" />
+      <workItem from="1676974002086" duration="5583000" />
+      <workItem from="1677240456166" duration="990000" />
+      <workItem from="1677384327763" duration="6498000" />
     </task>
+    <task id="LOCAL-00001" summary="[fea] add package&#10;&#10;socket io 설치, sveltekit 설치">
+      <created>1676700982139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676700982139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[fea] remove unuse files&#10;&#10;사용안하는 files 모두 제거">
+      <created>1676701242591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676701242591</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[fea] edit route record&#10;&#10;info chat game 으로 구성">
+      <created>1676701504232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676701504232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[fea] add common components&#10;&#10;dividor 랑 card component 추가">
+      <created>1676701557961</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676701557961</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[fea] edit main page &#10;&#10;main page 수정">
+      <created>1676701821284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676701821284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[fea] edit info page&#10;&#10;info page 수정">
+      <created>1676701888511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676701888511</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[module] add socket io package &#10;&#10;socket io package 추가">
+      <created>1676974073988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676974073988</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[feat] connet socket and test&#10;&#10;socket 통신 연결 성공&#10;emit test 성공">
+      <created>1676986524499</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676986524499</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="[fea] add package&#10;&#10;socket io 설치, sveltekit 설치" />
+    <MESSAGE value="[fea] remove unuse files&#10;&#10;사용안하는 files 모두 제거" />
+    <MESSAGE value="[fea] edit route record&#10;&#10;info chat game 으로 구성" />
+    <MESSAGE value="[fea] add common components&#10;&#10;dividor 랑 card component 추가" />
+    <MESSAGE value="[fea] edit main page &#10;&#10;main page 수정" />
+    <MESSAGE value="[fea] edit info page&#10;&#10;info page 수정" />
+    <MESSAGE value="[module] add socket io package &#10;&#10;socket io package 추가" />
+    <MESSAGE value="[feat] connet socket and test&#10;&#10;socket 통신 연결 성공&#10;emit test 성공" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] connet socket and test&#10;&#10;socket 통신 연결 성공&#10;emit test 성공" />
   </component>
 </project>
